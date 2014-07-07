@@ -1,7 +1,7 @@
 package lexer
 
 import (
-  "github.com/Southern/scanner"
+  "github.com/sourcegraph/scanner"
   "regexp"
   "strings"
 )

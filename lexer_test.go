@@ -1,7 +1,7 @@
 package lexer_test
 
 import (
-  "github.com/Southern/lexer"
+  "github.com/sourcegraph/lexer"
   "io/ioutil"
   "strings"
   "testing"
