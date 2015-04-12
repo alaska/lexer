@@ -127,6 +127,9 @@ func init() {
 				// Double quote strings
 				regex["strings"]["double"],
 
+				// Raw strings
+				scanner.Definition{regexp.MustCompile("^`([^`\\n])*`"), "RAWSTRING"},
+
 				// <-, :=, :, ..., .
 				scanner.Definition{regexp.MustCompile("^(<-|:=?|\\.{3}|\\.)"), "OPERATOR"},
 
